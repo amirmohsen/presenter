@@ -1,12 +1,13 @@
-<polymer-element name="presenter-frame" constructor="PresenterFrame">
+<polymer-element name="presenter-frame" constructor="PresenterFrame" extends="presenter-resizable">
 	<template>
-		<core-style ref="bootstrap"></core-style>
-		<core-style ref="darkly"></core-style>
+		<shadow></shadow>
+		<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" href="/app/styles/darkly.css">
 		<link rel="stylesheet" href="presenter-frame.css">
 		<div class="container-fluid">
 			<bs-row>
 				<bs-col xs="12">
-					<div class="jumbotron">				  
+					<div class="jumbotron mask">				  
 						<h1>Web Components</h1>
 						<h2 class="text-info">Transforming the Web as we know it</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium commodi neque dicta atque amet! Quo sunt nam molestias dolor accusantium, sapiente reprehenderit error dicta neque facere incidunt autem dolorum maxime.</p>

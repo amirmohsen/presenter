@@ -2,6 +2,13 @@
 	display: block;
 	max-width: 100%;
 	overflow: auto;
+	-webkit-mask: -webkit-linear-gradient(
+		top,
+		rgba(255,255,255,0),
+		rgba(255,255,255,1) 5%,
+		rgba(255,255,255,1) 95%,
+		rgba(255,255,255,0)
+		);
 }
 
 :host::-webkit-scrollbar {

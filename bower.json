@@ -17,15 +17,11 @@
     "polymer": "Polymer/polymer#~0.5.5",
     "jquery": "~2.1.3",
     "bootstrap": "~3.3.2",
-    "twbs-grid": "*",
-    "core-style": "Polymer/core-style#~0.5.5"
+    "twbs-grid": "*"
   },
   "overrides": {
     "polymer": {
       "main": "polymer.html"
-    },
-    "core-style": {
-      "main": "core-style.html"
     }
   },
   "resolutions": {
