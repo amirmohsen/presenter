@@ -1,0 +1,17 @@
+:host {
+	display: block;
+	max-width: 100%;
+	overflow: auto;
+}
+
+:host ::shadow h2.optional:empty {
+	display: none;
+}
+
+:host ::content * {
+	display: none;
+}
+
+div.jumbotron {
+	margin: 0;
+}

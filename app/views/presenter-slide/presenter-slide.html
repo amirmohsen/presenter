@@ -1,0 +1,20 @@
+<polymer-element name="presenter-slide" attributes="header subheader" constructor="PresenterSlide">
+	<template>
+		<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" href="/app/styles/darkly.css">
+		<link rel="stylesheet" href="presenter-slide.css">
+		<div class="container-fluid">
+			<bs-row>
+				<bs-col xs="12">
+					<div class="jumbotron mask">				  
+						<h1>{{header}}</h1>
+						<h2 class="text-info optional">{{subheader}}</h2>
+						<div id="slideContent"></div>
+						<content></content>
+					</div>
+				</bs-col>
+			</bs-row>			
+		</div>
+	</template>
+	<script src="presenter-slide.js"></script>
+</polymer-element>

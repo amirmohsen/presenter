@@ -1,0 +1,16 @@
+<polymer-element name="presenter-sidebar" constructor="PresenterSidebar" extends="presenter-resizable">
+	<template>
+		<shadow></shadow>
+		<link rel="stylesheet" href="/bower_components/bootstrap/dist/css/bootstrap.css">
+		<link rel="stylesheet" href="/app/styles/darkly.css">
+		<link rel="stylesheet" href="presenter-sidebar.css">
+		<div class="container-fluid">
+			<bs-row>
+				<bs-col xs="12">
+					<div id="items" class="list-group"></div>
+				</bs-col>
+			</bs-row>
+		</div>
+	</template>
+	<script src="presenter-sidebar.js"></script>
+</polymer-element>
