@@ -16,3 +16,7 @@
 	margin: 0;
 	padding: 20px 30px;
 }
+
+:host div.jumbotron .extra-bottom-margin {
+	margin-bottom: 30px;
+}

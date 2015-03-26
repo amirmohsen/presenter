@@ -1,0 +1,7 @@
+bs-row {
+	margin-bottom: 20px;
+}
+
+bs-row:last-child {
+	margin-bottom: 0;
+}
