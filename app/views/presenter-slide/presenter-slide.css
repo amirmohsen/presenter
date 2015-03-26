@@ -12,6 +12,7 @@
 	display: none;
 }
 
-div.jumbotron {
+:host div.jumbotron {
 	margin: 0;
+	padding: 20px 30px;
 }
