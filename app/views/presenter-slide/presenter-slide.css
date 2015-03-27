@@ -17,6 +17,6 @@
 	padding: 20px 30px;
 }
 
-:host div.jumbotron .extra-bottom-margin {
-	margin-bottom: 30px;
+:host div.jumbotron pre {
+	font-size: 23px;
 }
